@@ -25,7 +25,7 @@ SECRET_KEY = "wipl(gzq#mc(9@!a)0eh@rd2qiywd=o(k+il)8g3mds&ih2d%l"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(int(os.environ.get("DEBUG", 1)))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["ec2-52-47-107-60.eu-west-3.compute.amazonaws.com", "127.0.0.1"]
 
 
 # Application definition
